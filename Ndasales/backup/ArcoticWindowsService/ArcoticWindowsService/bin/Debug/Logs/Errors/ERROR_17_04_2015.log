@@ -1,0 +1,192 @@
+
+DATA/HORA: 17/04/2015 12:48:26
+
+MENSAGEM DE ERRO: Referência de objeto não definida para uma instância de um objeto.
+
+INNER EXCEPTION: 
+
+TIPO DE EXCEPTION: NullReferenceException (System)
+
+NOME DO ARQUIVO: c:\Projetos\Arcotic\Ndasales\ArcoticWindowsService\ArcoticWindowsService\ServiceTask.cs
+
+FUNÇÃO/MÉTODO: RunInventario ()
+
+Nº DA LINHA: 28
+
+PILHA: 
+
+   1. c:\Projetos\Arcotic\Ndasales\ArcoticWindowsService\ArcoticWindowsService\ServiceTask.cs.RunInventario (): 28
+
+   2. c:\Projetos\Arcotic\Ndasales\ArcoticWindowsService\ArcoticWindowsService\ServiceTask.cs.GetDadosInventario (): 152
+
+LINK DE AJUDA: 
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+DATA/HORA: 17/04/2015 12:48:26
+
+MENSAGEM DE ERRO: Referência de objeto não definida para uma instância de um objeto.
+
+INNER EXCEPTION: 
+
+TIPO DE EXCEPTION: NullReferenceException (System)
+
+NOME DO ARQUIVO: c:\Projetos\Arcotic\Ndasales\ArcoticWindowsService\ArcoticWindowsService\ServiceTask.cs
+
+FUNÇÃO/MÉTODO: RunVendas ()
+
+Nº DA LINHA: 67
+
+PILHA: 
+
+   1. c:\Projetos\Arcotic\Ndasales\ArcoticWindowsService\ArcoticWindowsService\ServiceTask.cs.RunVendas (): 67
+
+   2. c:\Projetos\Arcotic\Ndasales\ArcoticWindowsService\ArcoticWindowsService\ServiceTask.cs.GetDadosVendas (): 106
+
+LINK DE AJUDA: 
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+DATA/HORA: 17/04/2015 12:52:02
+
+MENSAGEM DE ERRO: Referência de objeto não definida para uma instância de um objeto.
+
+INNER EXCEPTION: 
+
+TIPO DE EXCEPTION: NullReferenceException (System)
+
+NOME DO ARQUIVO: c:\Projetos\Arcotic\Ndasales\ArcoticWindowsService\ArcoticWindowsService\ServiceTask.cs
+
+FUNÇÃO/MÉTODO: RunInventario ()
+
+Nº DA LINHA: 28
+
+PILHA: 
+
+   1. c:\Projetos\Arcotic\Ndasales\ArcoticWindowsService\ArcoticWindowsService\ServiceTask.cs.RunInventario (): 28
+
+   2. c:\Projetos\Arcotic\Ndasales\ArcoticWindowsService\ArcoticWindowsService\ServiceTask.cs.GetDadosInventario (): 152
+
+LINK DE AJUDA: 
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+DATA/HORA: 17/04/2015 12:52:02
+
+MENSAGEM DE ERRO: Referência de objeto não definida para uma instância de um objeto.
+
+INNER EXCEPTION: 
+
+TIPO DE EXCEPTION: NullReferenceException (System)
+
+NOME DO ARQUIVO: c:\Projetos\Arcotic\Ndasales\ArcoticWindowsService\ArcoticWindowsService\ServiceTask.cs
+
+FUNÇÃO/MÉTODO: RunVendas ()
+
+Nº DA LINHA: 67
+
+PILHA: 
+
+   1. c:\Projetos\Arcotic\Ndasales\ArcoticWindowsService\ArcoticWindowsService\ServiceTask.cs.RunVendas (): 67
+
+   2. c:\Projetos\Arcotic\Ndasales\ArcoticWindowsService\ArcoticWindowsService\ServiceTask.cs.GetDadosVendas (): 106
+
+LINK DE AJUDA: 
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+DATA/HORA: 17/04/2015 12:53:16
+
+MENSAGEM DE ERRO: Referência de objeto não definida para uma instância de um objeto.
+
+INNER EXCEPTION: 
+
+TIPO DE EXCEPTION: NullReferenceException (System)
+
+NOME DO ARQUIVO: c:\Projetos\Arcotic\Ndasales\ArcoticWindowsService\ArcoticWindowsService\ServiceTask.cs
+
+FUNÇÃO/MÉTODO: RunInventario ()
+
+Nº DA LINHA: 28
+
+PILHA: 
+
+   1. c:\Projetos\Arcotic\Ndasales\ArcoticWindowsService\ArcoticWindowsService\ServiceTask.cs.RunInventario (): 28
+
+   2. c:\Projetos\Arcotic\Ndasales\ArcoticWindowsService\ArcoticWindowsService\ServiceTask.cs.GetDadosInventario (): 152
+
+LINK DE AJUDA: 
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+DATA/HORA: 17/04/2015 12:53:18
+
+MENSAGEM DE ERRO: Referência de objeto não definida para uma instância de um objeto.
+
+INNER EXCEPTION: 
+
+TIPO DE EXCEPTION: NullReferenceException (System)
+
+NOME DO ARQUIVO: c:\Projetos\Arcotic\Ndasales\ArcoticWindowsService\ArcoticWindowsService\ServiceTask.cs
+
+FUNÇÃO/MÉTODO: RunVendas ()
+
+Nº DA LINHA: 67
+
+PILHA: 
+
+   1. c:\Projetos\Arcotic\Ndasales\ArcoticWindowsService\ArcoticWindowsService\ServiceTask.cs.RunVendas (): 67
+
+   2. c:\Projetos\Arcotic\Ndasales\ArcoticWindowsService\ArcoticWindowsService\ServiceTask.cs.GetDadosVendas (): 106
+
+LINK DE AJUDA: 
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+DATA/HORA: 17/04/2015 12:58:03
+
+MENSAGEM DE ERRO: Referência de objeto não definida para uma instância de um objeto.
+
+INNER EXCEPTION: 
+
+TIPO DE EXCEPTION: NullReferenceException (System)
+
+NOME DO ARQUIVO: c:\Projetos\Arcotic\Ndasales\ArcoticWindowsService\ArcoticWindowsService\ServiceTask.cs
+
+FUNÇÃO/MÉTODO: RunInventario ()
+
+Nº DA LINHA: 28
+
+PILHA: 
+
+   1. c:\Projetos\Arcotic\Ndasales\ArcoticWindowsService\ArcoticWindowsService\ServiceTask.cs.RunInventario (): 28
+
+   2. c:\Projetos\Arcotic\Ndasales\ArcoticWindowsService\ArcoticWindowsService\ServiceTask.cs.GetDadosInventario (): 152
+
+LINK DE AJUDA: 
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+DATA/HORA: 17/04/2015 12:58:04
+
+MENSAGEM DE ERRO: Referência de objeto não definida para uma instância de um objeto.
+
+INNER EXCEPTION: 
+
+TIPO DE EXCEPTION: NullReferenceException (System)
+
+NOME DO ARQUIVO: c:\Projetos\Arcotic\Ndasales\ArcoticWindowsService\ArcoticWindowsService\ServiceTask.cs
+
+FUNÇÃO/MÉTODO: RunVendas ()
+
+Nº DA LINHA: 67
+
+PILHA: 
+
+   1. c:\Projetos\Arcotic\Ndasales\ArcoticWindowsService\ArcoticWindowsService\ServiceTask.cs.RunVendas (): 67
+
+   2. c:\Projetos\Arcotic\Ndasales\ArcoticWindowsService\ArcoticWindowsService\ServiceTask.cs.GetDadosVendas (): 106
+
+LINK DE AJUDA: 
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

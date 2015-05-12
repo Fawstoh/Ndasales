@@ -1,0 +1,41 @@
+LOCALIZAÇÃO: https://domain.com/inventario
+
+USERNAME: teste
+PASSWORD: teste
+SECRET:   TESTE!J1O#pkqZ&aUTHDk8{iR_0LVy
+
+{
+	login : {
+		username : 'teste',      # string    OBRIGATORIO
+		password : 'teste'    # string    OBRIGATORIO
+	},
+	artigos : [
+		{
+			id         : 1,          	# inteiro   OBRIGATORIO	maior que zero
+			data       : 1425052203,	# timestamp OBRIGATORIO (sem microsegundos)
+			armazem    : 10,         	# inteiro   OBRIGATORIO
+			disponivel : 10,         	# inteiro   OBRIGATORIO
+			alocada    : 10,         	# inteiro   OBRIGATORIO
+			transito   : 10          	# inteiro   OBRIGATORIO
+		},
+		{
+			id         : 2,
+			data       : 1425052203,
+			armazem    : 20,
+			disponivel : 20,
+			alocada    : 20,
+			transito   : 20
+		}
+	],
+	hmac : ''                        	# string    OBRIGATORIO	HMAC MD5
+}
+
+CÁLCULO DA ASSINATURA:
+
+	concatenar username + password
+		+ por cada artigo:
+			concatenar id + data + armazem + disponivel + alocada + transito
+
+	para este exemplo: 'teste' + 'teste' + 1 + 1425052203 + 10 + 10 + 10 +10 + 2 + 1425052203 + 20 + 20 +20 +20
+
+	empregando HMAC sobre MD5, deveremos obter '75ff65b710327683a3dee59f4e252d68'

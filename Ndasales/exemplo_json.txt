@@ -1,0 +1,66 @@
+﻿LOCALIZAÇÃO: https://domain.com/vendas
+
+
+USERNAME: teste
+PASSWORD: teste
+SECRET:   TESTE!J1O#pkqZ&aUTHDk8{iR_0LVy
+
+
+LOGIN BACKOFFICE APLICAÇÃO:
+USER: teste1
+PASS: meuteste1
+URL: http://domain.com/admin/pt/login
+
+
+EXEMPLO E TIPOS DADOS ACEITES:
+
+{
+	login : {
+		username : 'teste',             		   	# string    OBRIGATORIO
+		password : 'teste'           		   		# string    OBRIGATORIO
+	},
+	vendas : [
+		{
+			artigos : [
+				{
+					id          : 1,           # inteiro   OBRIGATORIO	maior que zero
+					qty         : 1,           # inteiro   OBRIGATORIO	maior que zero
+					preco       : 10,          # float     OBRIGATORIO	até uma casa decimal
+					desconto    : 10,          # inteiro   OBRIGATORIO	entre 0 e 100
+					preco_final : 9            # float     OBRIGATORIO	até uma casa decimal
+				}
+			],
+			ref     : 'TA01',                  	   # string    OBRIGATORIO
+			data    : 1425052203,                	   # timestamp OBRIGATORIO
+			moeda   : 'AOA',                   	   # string    OBRIGATORIO	código ISO-4217 bloqueado para AOA (Kwanzas)
+			cliente : {
+				idcliente : 1,               	   # inteiro   OBRIGATORIO	maior que zero
+				nome      : 'Primeiro Cliente' 	   # string    OBRIGATORIO
+			},
+			vendedor : {
+				idvendedor : 1,               	   # inteiro   OBRIGATORIO	maior que zero
+				nome       : 'Primeiro Vendedor'   # string    OBRIGATORIO
+			},
+			status : 'A'                       	   # string    OBRIGATORIO	valores: 'A', 'T', 'C' (aberta, terminada, cancelada)
+		}
+	],
+	hmac : ''                                  		   # string    OBRIGATORIO	HMAC MD5
+}
+
+
+NOTAS:
+O timestamp das datas não deve incluir microsegundos
+Campos int e float limitados pelo máximo que o sistema aceita.
+
+
+CÁLCULO DA ASSINATURA:
+concatenar username + password
++ por cada venda:
+	ref + idcliente + nome do cliente + idvendedor + nome do vendedor + data + moeda + status
+    	+ por cada artigo na venda:
+    		id + qty + preco + desconto + preco_final
+
+Para o exemplo acima:
+'teste' + 'teste' + 'TA01' + 1 + 'Primeiro Cliente' + 1 + 'Primeiro Vendedor' + 1425052203 + 'AOA' + 'A' + 1 + 1 + 10 + 10 + 9
+
+Empregando HMAC sobre MD5, deveremos obter: 'e92fd4711135319264b2fd1075375a24'
